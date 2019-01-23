@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "DisplayProduct";
+}
+
+<h2>DisplayProduct</h2>
+
+<b>List of Product</b><br /><br />
+
+@foreach (var p in ViewBag.display)
+{
+    @Html.Raw(p.ToString());
+    <br /> <br />
+}
+

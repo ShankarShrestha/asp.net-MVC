@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Category";
+}
+
+<h2>Index</h2>
+
+<b>This is my Category list</b><br /><br />
+@foreach (var p in ViewBag.myCategory)
+{
+    @Html.Raw(p.ToString());
+    <br /> <br />
+}

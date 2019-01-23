@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "DisplaySupplier";
+}
+
+<h2>Display Supplier</h2>
+
+
+@foreach(var supplyer in ViewBag.SupplyerDisplay)
+{
+    @Html.Raw(supplyer.ToString());
+    <br /> <br />
+}
