@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Created By: Shankar Shrestha
+// Create Date: 1/19/2019
+// Description: This is Supplier Model with public property
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
